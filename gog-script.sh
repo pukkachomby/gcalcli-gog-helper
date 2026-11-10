@@ -18,8 +18,8 @@ while true; do
 
     main_choice=$(gum choose \
         "Task: List" \
-        "Task: Add" \
         "Task: Remove" \
+        "Task: Add" \
         "Calendar") || exit 0
 
     case "$main_choice" in
